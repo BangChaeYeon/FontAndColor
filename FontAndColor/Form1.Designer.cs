@@ -46,38 +46,40 @@
             this.tsbtnColor});
             this.tlsMenu.Location = new System.Drawing.Point(0, 0);
             this.tlsMenu.Name = "tlsMenu";
-            this.tlsMenu.Size = new System.Drawing.Size(460, 33);
+            this.tlsMenu.Size = new System.Drawing.Size(460, 25);
             this.tlsMenu.TabIndex = 0;
             this.tlsMenu.Text = "toolStrip1";
             // 
             // tsbtnFont
             // 
+            this.tsbtnFont.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tsbtnFont.BackgroundImage")));
+            this.tsbtnFont.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tsbtnFont.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            //this.tsbtnFont.Image = global::FontAndColor.Properties.Resources.tsbtnFont;
             this.tsbtnFont.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnFont.Name = "tsbtnFont";
-            this.tsbtnFont.Size = new System.Drawing.Size(34, 28);
+            this.tsbtnFont.Size = new System.Drawing.Size(34, 20);
             this.tsbtnFont.Text = "toolStripButton1";
-            //this.tsbtnFont.Click += new System.EventHandler(this.TsbtnFont_Click);
+            this.tsbtnFont.Click += new System.EventHandler(this.TsbtnFont_Click);
             // 
             // tsbtnColor
             // 
+            this.tsbtnColor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tsbtnColor.BackgroundImage")));
+            this.tsbtnColor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.tsbtnColor.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            //this.tsbtnColor.Image = global::FontAndColor.Properties.Resources.tsbtnColor;
             this.tsbtnColor.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbtnColor.Name = "tsbtnColor";
-            this.tsbtnColor.Size = new System.Drawing.Size(34, 28);
+            this.tsbtnColor.Size = new System.Drawing.Size(34, 23);
             this.tsbtnColor.Text = "toolStripButton1";
-            //this.tsbtnColor.Click += new System.EventHandler(this.TsbtnColor_Click);
+            this.tsbtnColor.Click += new System.EventHandler(this.TsbtnColor_Click);
             // 
             // rtbText
             // 
             this.rtbText.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rtbText.Location = new System.Drawing.Point(0, 33);
+            this.rtbText.Location = new System.Drawing.Point(0, 25);
             this.rtbText.Name = "rtbText";
-            this.rtbText.Size = new System.Drawing.Size(460, 315);
+            this.rtbText.Size = new System.Drawing.Size(460, 323);
             this.rtbText.TabIndex = 1;
-            this.rtbText.Text = resources.GetString("rtbText.Text");
+            this.rtbText.Text = "로렘 입숨Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
             // 
             // statusStrip1
             // 
